@@ -126,6 +126,7 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
+  transition: all 1s ease;
 }
 .card__item:hover {
   transform: translateY(-10px);
