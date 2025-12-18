@@ -83,7 +83,6 @@ body {
   color: #fff;
   gap: 1.2rem;
   max-width:100vw;
-}
 .hero__title {
   font-size: 2.4rem;
 }
@@ -129,6 +128,10 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
+  transition: all 1s ease;
+}
+.card__item:hover {
+  transform: translateY(-10px);
 }
 .card__item h2 {
    color: var(--primary-color);
