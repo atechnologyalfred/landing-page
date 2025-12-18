@@ -40,6 +40,9 @@ body {
   align-items: center;
   background-color: #fff;
   padding: 1.6rem;
+  position: fixed;
+  left: 0;
+  right: 0;
 }
 .logo {
   font-size: 1.8rem;
